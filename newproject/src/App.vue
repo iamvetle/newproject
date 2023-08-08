@@ -73,21 +73,21 @@
 
       <div class="bg-[#F8F2EF]"> <!-- FLEX-CONTAINER for row-->
 
-        <section id="row3" class="py-[65px] mx-auto w-11/12 lg:w-4/6 xl:w-[62.5%] flex items-start">
-          <div class="w-7/12 inline-block mx-auto">
-            <img alt="" src="https://geocominstal.ro/wp-content/uploads/2018/11/blog-ph.jpg" class="block px-5 h-[500px] w-auto mx-auto">
+        <section id="row3" class="py-[65px] mx-auto w-11/12 lg:w-4/6 xl:w-6/12" >
+          <h1 class="text-4xl text-center">Row 3</h1>
+
+          <div class="w-6/12 inline-block mx-auto px-5 mt-8">
+            <h3 class="text-xl ">lorem ipsum dolor sit</h3>
+            <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam error dignissimos veritatis. Cumque rerum accusamus odit obcaecati autem quidem? Voluptatibus tempore aperiam dolor! Facere, vero eveniet. Incidunt doloremque consequuntur labore!</p>          
           </div>
           
-          <div class="w-5/12 inline-block mx-auto">
-            <h2 class="text-3xl pt-4 ">lorem ipsum dolor sit</h2>
-            <p class="pt-3 pe-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam error dignissimos veritatis. Cumque rerum accusamus odit obcaecati autem quidem? Voluptatibus tempore aperiam dolor! Facere, vero eveniet. Incidunt doloremque consequuntur labore!</p>
-            <button class="bg-gray-400 rounded-md mx-5 px-3 py-2 mt-5 ">CTA</button>
+          <div class="w-6/12 inline-block mx-auto mt-8 px-5">
+            <h3 class="text-xl ">lorem ipsum dolor sit</h3>
+            <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam error dignissimos veritatis. Cumque rerum accusamus odit obcaecati autem quidem? Voluptatibus tempore aperiam dolor! Facere, vero eveniet. Incidunt doloremque consequuntur labore!</p>          
           </div>
-  
-  
+
         </section>
       </div>
-
 
       <!-- Color row: #FFFFFF -->
       <!-- Color row: #353535 -->
