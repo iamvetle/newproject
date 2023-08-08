@@ -33,30 +33,60 @@
     </div>
 
       <!-- ROW 1 -->
+
       <div class="bg-[#F7F7F7]"> <!-- FLEX-CONTAINER for row-->
-        <section id="about-me" class="pt-5 mx-auto w-11/12 lg:w-4/6 xl:w-[62.5%]">
-          <div class="inline w-6/12 float-left">          
-            <img :src="aboutus" class="rounded-sm" alt="About us">
+        <section id="row1" class="py-[65px] mx-auto w-11/12 lg:w-4/6 xl:w-[62.5%]">
+
+          <h2 class="text-4xl pt-4 pb-7 text-center">lorem ipsum</h2>
+        
+          <div class="inline-block w-4/12 px-1 py-2 mx-auto ">          
+            <img alt="" src="https://geocominstal.ro/wp-content/uploads/2018/11/blog-ph.jpg" class="block h-auto max-h-96 w-auto mx-auto">
+            <p class="block pt-4 text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptatum facilis iusto ducimus explicabo, id dicta assumenda neque quibusdam vero maiores pariatur atque voluptates, unde tempora, nihil molestias illo non.</p>
           </div>
-          <div class="inline w-6/12 text-lg float-right">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque perferendis porro ex recusandae saepe ea aperiam consectetur mollitia eaque. Facilis repellat iste id necessitatibus vero temporibus blanditiis perspiciatis cumque quisquam!
+          <div class="inline-block w-4/12 px-1 py-2 mx-auto ">          
+            <img alt="" src="https://geocominstal.ro/wp-content/uploads/2018/11/blog-ph.jpg" class="block h-auto max-h-96 w-auto mx-auto">
+            <p class="block pt-4 text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptatum facilis iusto ducimus explicabo, id dicta assumenda neque quibusdam vero maiores pariatur atque voluptates, unde tempora, nihil molestias illo non.</p>
           </div>
+          <div class="inline-block w-4/12 px-1 py-2 mx-auto ">          
+            <img alt="" src="https://geocominstal.ro/wp-content/uploads/2018/11/blog-ph.jpg" class="block h-auto max-h-96 w-auto mx-auto">
+            <p class="block pt-4 text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptatum facilis iusto ducimus explicabo, id dicta assumenda neque quibusdam vero maiores pariatur atque voluptates, unde tempora, nihil molestias illo non.</p>
+          </div>
+  
         </section>
       </div>
 
-      <hr>
-
-      <div class="bg-[#F7F7F7] clear-both"> <!-- FLEX-CONTAINER for row-->
-        <section id="about-me" class="pt-5 mx-auto w-11/12 lg:w-4/6 xl:w-[62.5%]">
-          <div class="w-6/12">          
-            <img :src="aboutus" class="rounded-sm" alt="About us">
+      <div class="bg-[#FFFFFF]"> <!-- FLEX-CONTAINER for row-->
+        <section id="row2" class="py-[65px] mx-auto w-11/12 lg:w-4/6 xl:w-[62.5%] flex items-start">
+          <div class="w-7/12 inline-block mx-auto">
+            <img alt="" src="https://geocominstal.ro/wp-content/uploads/2018/11/blog-ph.jpg" class="block px-5 h-[500px] w-auto mx-auto">
           </div>
-          <div class="w-6/12 text-lg">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque perferendis porro ex recusandae saepe ea aperiam consectetur mollitia eaque. Facilis repellat iste id necessitatibus vero temporibus blanditiis perspiciatis cumque quisquam!
+          
+          <div class="w-5/12 inline-block mx-auto">
+            <h2 class="text-3xl pt-4 ">lorem ipsum dolor sit</h2>
+            <p class="pt-3 pe-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam error dignissimos veritatis. Cumque rerum accusamus odit obcaecati autem quidem? Voluptatibus tempore aperiam dolor! Facere, vero eveniet. Incidunt doloremque consequuntur labore!</p>
+            <button class="bg-gray-400 rounded-md ms-5 px-6 py-3 mt-5 text-lg ">CTA</button>
           </div>
+  
+  
         </section>
       </div>
 
+      <div class="bg-[#F8F2EF]"> <!-- FLEX-CONTAINER for row-->
+
+        <section id="row3" class="py-[65px] mx-auto w-11/12 lg:w-4/6 xl:w-[62.5%] flex items-start">
+          <div class="w-7/12 inline-block mx-auto">
+            <img alt="" src="https://geocominstal.ro/wp-content/uploads/2018/11/blog-ph.jpg" class="block px-5 h-[500px] w-auto mx-auto">
+          </div>
+          
+          <div class="w-5/12 inline-block mx-auto">
+            <h2 class="text-3xl pt-4 ">lorem ipsum dolor sit</h2>
+            <p class="pt-3 pe-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam error dignissimos veritatis. Cumque rerum accusamus odit obcaecati autem quidem? Voluptatibus tempore aperiam dolor! Facere, vero eveniet. Incidunt doloremque consequuntur labore!</p>
+            <button class="bg-gray-400 rounded-md mx-5 px-3 py-2 mt-5 ">CTA</button>
+          </div>
+  
+  
+        </section>
+      </div>
 
 
       <!-- Color row: #FFFFFF -->
